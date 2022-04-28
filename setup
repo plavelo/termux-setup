@@ -4,7 +4,7 @@ if [[ "$*" =~ help ]]; then
 fi
 
 if [[ "$*" =~ all ]]; then
-  pkg install -y tmux
-  make config
+  make tmux
+  make vim
 fi
 
