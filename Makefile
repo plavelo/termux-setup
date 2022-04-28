@@ -2,6 +2,9 @@ config:
 	cp -rf .termux ~/
 	termux-reload-settings
 
+storage:
+	termux-setup-storage
+
 tmux:
 	pkg install -y tmux
 	cp .tmux.conf ~/
