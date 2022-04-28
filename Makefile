@@ -1,0 +1,2 @@
+config:
+	cp -rf .termux ~/
