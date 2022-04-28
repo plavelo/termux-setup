@@ -20,3 +20,6 @@ git:
 
 keygen:
 	ssh-keygen -t ed25519
+
+rust:
+	pkg install -y rust
