@@ -6,5 +6,6 @@ fi
 if [[ "$*" =~ all ]]; then
   make tmux
   make vim
+  meke git
 fi
 
