@@ -1,6 +1,9 @@
+config:
+	cp -rf .termux ~/
+	termux-reload-settings
+
 tmux:
 	pkg install -y tmux
-	cp -rf .termux ~/
 	cp .tmux.conf ~/
 
 vim:

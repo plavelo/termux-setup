@@ -4,6 +4,7 @@ if [[ "$*" =~ help ]]; then
 fi
 
 if [[ "$*" =~ all ]]; then
+  make config
   make tmux
   make vim
   meke git
