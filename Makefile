@@ -17,9 +17,13 @@ vim:
 
 git:
 	pkg install -y git
+	git config --global user.email "plastic.velocity@gmail.com"
+	git config --global user.name "plavelo"
 
 keygen:
 	ssh-keygen -t ed25519
+	cat ~/.ssh/id_ed25519.pub
+	cp .ssh-config ~/.ssh/config
 
 rust:
 	pkg install -y rust
