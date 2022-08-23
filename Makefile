@@ -23,3 +23,5 @@ install:
 	# rust
 	pkg install -y rust pkg-config
 	cargo install cargo-atcoder
+	# w3m
+	pkg install -y w3m
