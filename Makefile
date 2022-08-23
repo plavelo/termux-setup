@@ -21,4 +21,5 @@ install:
 	git config --global user.email "plastic.velocity@gmail.com"
 	git config --global user.name "plavelo"
 	# rust
-	pkg install -y rust
+	pkg install -y rust pkg-config
+	cargo install cargo-atcoder
